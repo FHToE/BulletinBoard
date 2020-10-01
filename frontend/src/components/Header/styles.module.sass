@@ -1,0 +1,136 @@
+@import "src/styles/common_variables"
+$container_width: 1400px
+$side_padding: 80px
+
+$container_width: 1400px
+$side_padding: 80px
+
+.headerWrp
+  background: #5b6aca
+  box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.1)
+  position: fixed
+  height: 100px
+  width: 100%
+  right: 0px
+  top: 0px
+  left: 0px
+  top: 0px
+  flex-direction: row
+  z-index: 200
+
+
+.customHeader
+  max-width: $container_width + ($side_padding * 2)
+  margin-left: auto !important
+  margin-right: auto !important
+  padding-left: $side_padding
+  padding-right: $side_padding
+  justify-content: space-between
+  width: 100%
+  position: relative
+  background:#5b6aca
+  display: flex
+
+.headerWrp,
+.headerWrp .left_side
+  display: flex
+  align-items: center
+
+.headerWrp .left_side
+  width: 100%
+  max-width: 20em
+  padding: 0px
+
+.logo_wrp
+  color: white
+
+.headerWrp .right_side
+  display: flex
+  justify-content: space-between
+  align-items: center
+  max-width: 30em
+  width: 100%
+
+.middle
+  justify-content: space-evenly
+  display: flex
+  align-items: center
+  width: 100%
+  padding: auto
+
+.mainName
+  font-family: Custom Open Sans
+  font-style: normal
+  font-weight: bold
+  font-size: 1.5em
+  display: flex
+  align-items: center
+  color: #FFFFFF
+
+.iconWrp
+  margin: auto
+  height: auto
+
+.routName
+  font-family: Montserrat
+  font-style: normal
+  font-weight: normal
+  font-size: 1em
+  line-height: 1.5em
+  width: 6em
+  text-align: center
+  cursor: default
+  padding-top: 4px
+  text-transform: uppercase
+  cursor: pointer
+  font-weight: 700
+  color: #061a63
+
+\:global(.ui.basic.label).routElement
+  width: 6em
+  height: 6em
+  justify-content: space-between
+  align-items: center
+  flex-direction: column
+  display: flex
+  color: #061a63
+  background: #5b6aca
+  border: none
+  padding: 0
+  &:hover
+    width: 6em
+    height: 6em
+    justify-content: space-between
+    align-items: center
+    flex-direction: column
+    display: flex
+    color: #061a63
+    background: #5b6aca
+    border: none
+    padding: 0
+    
+
+.column
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  height: 6em
+  width: 6em
+
+
+.icons
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: flex-start
+
+.iconWrp
+  height: 12px
+  padding-left: 0px
+
+.homeLine
+  padding-top: 0.3em
+  position: relative
+  width: auto
+  background: linear-gradient(17.32deg, #112130 9.02%, #3e0ab8 90.81%)

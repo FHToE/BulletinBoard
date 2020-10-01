@@ -1,0 +1,5 @@
+app:
+  auth:
+    tokenSecret: mdzLa0RXxQX8mL9hFjctK9hCTDW4BQXHZXQZPPAKdD0LR6K0rB9rJrb6rM1otpWGXVABmxH0n4G1oFkp5Z03fGMXpvi3yeMq9jgxpnnNU6vP0j2UneEdm8Me1JK9qEQV
+    tokenExpirationMsec: 86400000
+    refreshExpirationMsec: 2592000000

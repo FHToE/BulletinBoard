@@ -1,0 +1,60 @@
+@import "src/styles/common_variables"
+
+$container_width: 1400px
+$side_padding: 80px
+$width_btn: 115px
+$height_btn: 40px
+
+.main_container
+  padding-top: $header_height
+  min-height: 700px
+  height: auto
+  justify-content: flex-start
+  display: flex
+  flex-direction: column
+
+
+.wide_container
+  max-width: $container_width + ($side_padding * 2)
+  margin-left: auto
+  margin-right: auto
+  padding-left: $side_padding
+  padding-right: $side_padding
+  display: flex
+  flex-direction: row
+  width: 100%
+
+.main_content
+  width: 100%
+  height: 100%
+  flex-grow: 1
+  display: flex
+  flex-direction: column
+  margin-bottom: 5vh
+  position: relative
+
+.form_container
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 70vh
+
+.userform
+  align-self: center
+  background: transparent
+  height: auto
+  width: 30em
+
+\:global(.ui.segment).form_segment
+  background: #9fa6cf
+
+\:global(.ui.button).add_button
+  position: absolute
+  top: 2em
+  left: 0
+  color: #ffffff
+  background-color:#061a63
+
+\:global(.ui.button).save_button
+  color: #ffffff
+  background-color:#061a63

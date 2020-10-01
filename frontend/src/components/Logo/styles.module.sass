@@ -1,0 +1,35 @@
+$circle_size: 31px
+$container_width: 45px
+$container_height: 43px
+
+.container
+  min-width: $container_width
+  max-width: $container_width
+  max-height: $container_height
+  min-height: $container_height
+  position: relative
+
+.ellipsis1, .ellipsis2, .ellipsis3, .back1, .back2, .back3
+  position: absolute
+  width: $circle_size
+  height: $circle_size
+  border-radius: 50%
+
+.ellipsis1, .ellipsis2, .ellipsis3
+  background: linear-gradient(83.47deg, #0084F8 9.02%, #FF8576 90.81%)
+  mix-blend-mode: screen
+
+.back1, .back2, .back3
+  background: black
+
+.ellipsis1, .back1
+  left: 0
+  bottom: 0
+
+.ellipsis2, .back2
+  right: 0
+  bottom: 0
+
+.ellipsis3, .back3
+  left: ($container_width - $circle_size) / 2
+  top: 0
